@@ -44,6 +44,14 @@ Project will be completed by process below;
   - DoWhy for Causal Inference
   - Graphviz for Causal Graph
 
+#### 2.2.1. `analysis` function
+Analysis function returns 'the graph with annotated ATE in the edge'. 
+- __Treatment__(sex) and __outcome__(risk) are expressed in the __square__. 
+- __Confounders__(jobs, savings account, etc.,) are in __circle__. 
+- As confounding variable is selected by person who analyze, we cannot say that there is no __latent confounding variable__. That was expressed as __black circle__.
+
+<img src = "/assets/causalgraph.png" width = 600>
+
 ***
 
 ## 3. Project Implementation
@@ -61,8 +69,8 @@ Two socio-economic datasets were analyzed.
 #### 3.1.2. German Credit Approval Dataset
 [german_analysis.ipynb](analysis/german_analysis.ipynb)
 
-- Causal Estimand 1 &#8594;	 Are `men` preferred in `risk rating`(assessment) because of their sex?
-- Causal Estimand 2 &#8594;	 Are `the older` preferred in `risk rating`(assessment) because of high age?
+- Causal Estimand 1 &#8594;	 Are men preferred in `risk rating`(assessment) because of their `sex`?
+- Causal Estimand 2 &#8594;	 Are the older preferred in `risk rating`(assessment) because of high `age`?
 
 ### 3.2. Environment
 Clone this project by opening a terminal and typing the following commands(please don't type the first `$` signs on each line, they just indicate that these are terminal commands):
