@@ -1,5 +1,5 @@
 # Causal Inference For Fairness(CIFF) Introduction
-_by Woo Chul Lee, Applied Machine Learning Lab., SNU_
+_Written by Woo Chul Lee, SNU GSDS_
 
 This github repository contains explanation including the code to analyze the fairness in datasets, as the part of my projects for Capstone Project for Data Science, GSDS of Seoul National University. (It might seem elementary and easy as this is the very first milestone and entry for my research on Good AI. Deeper and more meaningful research will follow afterwards.) After reading and looking through all of my project content, you could see graphical anaysis of fairness by causal inference, as example below.
 
